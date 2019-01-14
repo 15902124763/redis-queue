@@ -6,7 +6,15 @@
 
     <groupId>com.yarm</groupId>
     <artifactId>redis-queue-parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>redis-queue-web</module>
+        <module>redis-queue-service</module>
+        <module>redis-queue-common</module>
+        <module>redis-queue-pojo</module>
+        <module>redis-queue-dao</module>
+    </modules>
 
 
 </project>
